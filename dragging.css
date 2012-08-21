@@ -1,0 +1,16 @@
+<style>
+    *[draggable=true]{
+    	-moz-user-select: none;
+    	-khtml-user-drag: element;
+    	cursor: move;
+    }
+	.draggableDiv {
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+		-webkit-box-shadow: 5px;
+		box-shadow: 5px;
+		background-color: #DDD;
+		padding: 20px;
+		margin: 5px;
+	}
+</style>
